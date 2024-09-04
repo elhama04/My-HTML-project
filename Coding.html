@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding</title>
+  </head>
+  <style>
+    body{
+      background-color: #6495ED;
+    }
+    h1{
+      text-align: center;
+      color: blue;
+      border: 1px solid #7d51e8;
+      padding: 20px;
+    }
+    img{
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      border-radius: 20px;
+    }
+    p{
+      line-height: normal;
+    }
+    button {
+      display: block;
+      margin: 0 auto;
+      box-shadow: inset;
+
+
+
+    }
+    button:hover {
+      opacity: 0.9;
+    }
+
+    .more-info {
+      display: block;
+      margin-top: 10px;
+      color: red;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .more-info:hover{
+      text-decoration: underline;
+    }
+   
+  </style>
+  <body>
+    <h1>Coding is fun🥹</h1>
+    <img
+      src="https://www.computersciencedegreehub.com/wp-content/uploads/2023/02/shutterstock_535124956-1024x756.jpg"
+      alt="A girl that can code"
+      width="500"
+    />
+    <p>Coding isn't just a skill I've developed, it's a passion that drives me. 
+      I thrive in the world of logic and problem-solving, where every challenge is an opportunity to create something new and innovative. 
+      As I write code, I feel a sense of excitement and fulfillment, watching my ideas come to life on the screen. Whether it's building a complex algorithm or debugging a stubborn issue,
+      I'm completely absorbed in the process, always seeking to improve and learn more. For me, coding is a journey of continuous discovery, and I'm eager to see where it takes me next</p>
+    <br/>
+    <a href="https://www.computersciencedegreehub.com/faq/what-is-coding/"
+    target="_blank" class="more-info "
+    > 
+    Interested too? Learn more about coding on this website👩‍💻
+    </a>
+  </p>
+  <button class="join-tech-family-button">
+    Join Tech Family
+  </button>
+  This page was built by Amahle Duma
+  <script>
+    function join() {
+      let name = prompt("What is your name?");
+      let email = prompt("What is your email address? ");
+      let emoji = prompt("What is your favourite emoji?");
+
+      alert("Thank you, " + name + "! We'll communicate via email in the next 48 hours" + emoji );
+
+    }
+
+    let joinButton = document.querySelector(".join-tech-family-button");
+    joinButton.addEventListener("click", join);
+  </script>
+
+  </body>
+
+    
+</html>
